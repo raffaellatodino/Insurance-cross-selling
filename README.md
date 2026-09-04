@@ -1,24 +1,25 @@
-# Cross-selling-assicurativo
-Master in Data Science: progetto modulo di fondamenti di Machine Learning.  
+# Insurance-cross-selling
+Data Science Master’s: Fundamentals of Machine Learning module project.
 
-AssurePredict è una compagnia di assicurazioni leader nel settore, specializzata nell'offrire soluzioni innovative per la gestione del rischio. Questo progetto mira a creare un modello predittivo in grado di individuare potenziali opportunità di cross-selling per clienti esistenti, identificando quelli che potrebbero essere interessati ad acquistare una polizza aggiuntiva per il loro veicolo.  
+AssurePredict is a leading insurance company, specializing in offering innovative risk management solutions. This project aims to build a predictive model capable of identifying potential cross-selling opportunities for existing customers, by identifying those who might be interested in purchasing an additional policy for their vehicle.  
 
-## Obiettivo del Progetto
-L'obiettivo è sviluppare un modello di machine learning che preveda se i clienti, che attualmente hanno un'assicurazione sanitaria, potrebbero essere interessati a sottoscrivere una polizza assicurativa per il loro veicolo.  
-Il modello aiuterà AssurePredict a migliorare l'efficacia delle proprie strategie di cross-selling e ad aumentare la penetrazione nel mercato.
+## Objective
+The goal is to develop a machine learning model that predicts whether customers who currently hold health insurance might be interested in taking out a vehicle insurance policy.  
+The model will help AssurePredict improve the effectiveness of its cross-selling strategies and increase market penetration.
 
 ## Dataset
-Il dataset contiene informazioni dettagliate sui clienti e sul loro comportamento assicurativo. Le caratteristiche principali del dataset sono:  
+The dataset contains detailed information about customers and their insurance-related behavior. The main features of the dataset are:  
 
-- id: identificativo univoco del cliente.  
-- Gender: sesso del cliente.  
-- Age: età del cliente.  
-- Driving_License: 1 se il cliente possiede la patente di guida, 0 altrimenti.  
-- Region_Code: codice univoco della regione di residenza del cliente.  
-- Previously_Insured: 1 se il cliente ha già un veicolo assicurato, 0 altrimenti.  
-- Vehicle_Age: età del veicolo del cliente.  
-- Vehicle_Damage: 1 se il cliente ha avuto incidenti o danni al veicolo in passato, 0 altrimenti.  
-- Annual_Premium: importo annuale del premio assicurativo pagato dal cliente.  
-- PolicySalesChannel: canale utilizzato per la vendita della polizza (es. email, telefono, di persona).  
-- Vintage: giorni da cui il cliente è assicurato con AssurePredict.  
-- Response: 1 se il cliente ha accettato la proposta di cross-sell, 0 altrimenti.
+- id: unique customer identifier  
+- Gender: customer's gender  
+- Age: customer's age
+- Driving_License: 1 if the customer holds a driving license, 0 otherwise
+-	Region_Code: unique code of the customer's region of residence
+-	Previously_Insured: 1 if the customer already has an insured vehicle, 0 otherwise
+-	Vehicle_Age: age of the customer's vehicle
+-	Vehicle_Damage: 1 if the customer has had accidents or vehicle damage in the past, 0 otherwise
+-	Annual_Premium: annual amount of the insurance premium paid by the customer
+-	PolicySalesChannel: channel used to sell the policy (e.g. email, phone, in person)
+-	Vintage: number of days the customer has been insured with AssurePredict
+-	Response: 1 if the customer accepted the cross-sell offer, 0 otherwise.
+
